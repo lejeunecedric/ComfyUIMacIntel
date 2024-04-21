@@ -36,12 +36,13 @@ https://huggingface.co/stabilityai/stable-diffusion-xl-refiner-1.0/blob/main/sd_
 SDXL VAE
 https://huggingface.co/stabilityai/sdxl-vae/blob/main/sdxl_vae.safetensors
 
-I create a Stable-diffusion folder to match the syntax in the video and put the safetensors there. There's already a VAE folder so I just added the SDWL VAE file there
+I create a Stable-diffusion folder to match the syntax in the video and put the safetensors there. There's already a VAE folder so I just added the SDXL VAE file there
 
 By default you need the file v1-5-pruned-emaonly.safetensors installed in your ComfyUI/models/checkpoints directory, but you can use whatever SD1.5 model you want.
 https://huggingface.co/runwayml/stable-diffusion-v1-5/resolve/main/v1-5-pruned-emaonly.safetensors
 
 To start the ComfyUI server
+
 ./venv/bin/python main.py
 
 You can then go to http://127.0.0.1:8188/ and voila!
